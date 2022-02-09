@@ -1,0 +1,128 @@
+/**CSS da Index**/
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Concert One', cursive;
+}
+
+body{
+    display: flex;
+    background-color: #2F2325;
+    justify-content: center;
+}
+
+#container-principal{
+    width: 400px;
+    height: 400px;
+    background-color: #483636;
+    border: 2px solid #FFF2E7;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#container-principal a{
+    font-size: 22px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: #FFF2E7B2;
+    text-decoration: none;
+    border: 2px solid #FFF2E7;
+    display: block;
+    margin-left: 25%;
+    margin-top: 8%;
+    color: #2F2325;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #FFF2E7;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#img-principais{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: -95%;
+}
+
+#img-principais img{
+    width: 45px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.titulo-principal{
+    text-align: center;
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #FFF2E7;
+}
+
+/**CSS da Index**/
+
+/**CSS do Desafio 01**/
+
+#form-d1{
+    width: 400px;
+    height: 400px;
+    background-color: #483636;
+    margin-top: 150px;
+    border: 2px solid #FFF2E7;
+}
+
+.div-d1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 4%;
+    color: #FFF2E7;
+}
+
+.div-d1 input{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: #FFF2E7B2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 20px;
+    color: #2F2325;
+    display: block;
+    margin-left: 25%;
+}
+
+.container-02{
+    text-align: center;
+    position: absolute;
+    margin-top: 37%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFF2E7;
+}
+
+
+.botao input{
+    width: 200px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 20px;
+    background-color: #FFF2E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 25px;
+    color: #2F2325;
+}
+
+/**CSS do Desafio 01**/
