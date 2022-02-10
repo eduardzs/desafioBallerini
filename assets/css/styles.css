@@ -196,9 +196,9 @@ body{
     margin-top: 10px;
 }
 
-#resultado2{
+#result{
     width: 700px;
-    height: 200px;
+    height: 350px;
     margin-left: -40%;
     position: relative;
     background-color: #483636;
@@ -208,11 +208,68 @@ body{
     color: #FFF2E7;
     font-size: 30px;
     padding: 10px;
+    overflow-y: scroll;
 }
 
 /**CSS do Desafio 02**/
 
 /**CSS do Desafio 03**/
+
+.form-d3{
+    width: 400px;
+    height: 300px;
+    background-color: #483636;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #FFF2E7;
+    border-radius: 20px;
+    }
+
+.div-d3{
+    text-align: center;
+    font-size: 25px;
+    color: #FFF2E7;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-d3 textarea{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background-color: #FFF2E7B2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 30px;
+    color: #2F2325;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar{
+    display: none;
+}
+
+#fresultado{
+    width: 700px;
+    height: 200px;
+    margin-left: -40%;
+    position: relative;
+    background-color: #483636;
+    border: 2px solid #FFF2E7;
+    border-radius: 20px;
+    margin-top: 40px;
+    color: #FFF2E7;
+    font-size: 30px;
+    overflow-y: scroll;
+    padding: 10px;
+}
 
 /**CSS do Desafio 03**/
 
