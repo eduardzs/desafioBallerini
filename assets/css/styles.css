@@ -9,7 +9,6 @@
 }
 
 body{
-    display: flex;
     background-color: #2F2325;
     justify-content: center;
 }
@@ -19,12 +18,15 @@ body{
     height: 400px;
     background-color: #483636;
     border: 2px solid #FFF2E7;
-    margin-top: 150px;
     text-align: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
 }
 
 #container-principal a{
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
     width: 200px;
     height: 40px;
@@ -48,21 +50,21 @@ body{
     font-weight: normal;
 }
 
-#img-principais{
+.img-principais{
     position: absolute;
-    margin-top: 2%;
-    margin-left: -95%;
+    margin-left: 10px;
 }
 
-#img-principais img{
+.img-principais img{
     width: 45px;
     display: block;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .titulo-principal{
+    margin-bottom: 30px;
     text-align: center;
-    position: absolute;
     font-style: normal;
     font-weight: normal;
     margin-top: 40px;
@@ -70,48 +72,71 @@ body{
     color: #FFF2E7;
 }
 
+#container-principal a:hover{
+    background-color: #2F2325;
+    color: #FFF2E7;
+}
+
 /**CSS da Index**/
 
 /**CSS do Desafio 01**/
 
-#form-d1{
+.form-d1{
     width: 400px;
     height: 400px;
     background-color: #483636;
-    margin-top: 150px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
     border: 2px solid #FFF2E7;
+    border-radius: 20px;
 }
 
 .div-d1{
     text-align: center;
     font-size: 25px;
-    margin-top: 4%;
     color: #FFF2E7;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .div-d1 input{
     width: 200px;
-    height: 30px;
-    margin-top: 15px;
+    height: 50px;
+    text-align: center;
     background-color: #FFF2E7B2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 30px;
     color: #2F2325;
     display: block;
-    margin-left: 25%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
 }
 
 .container-02{
     text-align: center;
-    position: absolute;
-    margin-top: 37%;
+    margin-top: 30px;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
     color: #FFF2E7;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #483636;
+    border: 2px solid #FFF2E7;
+    word-break: break-word;
+    border-radius: 20px;
 }
 
+.container-02 h2{
+    font-style: normal;
+    font-weight: normal;
+}
 
 .botao input{
     width: 200px;
@@ -123,6 +148,215 @@ body{
     border-radius: 10px;
     font-size: 25px;
     color: #2F2325;
+    position: relative;
+}
+
+.botao input:hover{
+    background-color: #2F2325;
+    color: #FFF2E7;
 }
 
 /**CSS do Desafio 01**/
+
+/**CSS do Desafio 02**/
+
+.form-d2{
+    width: 400px;
+    height: 180px;
+    background-color: #483636;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #FFF2E7;
+    border-radius: 20px;
+    }
+
+.div-d2{
+    text-align: center;
+    font-size: 25px;
+    color: #FFF2E7;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-d2 input{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #FFF2E7B2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 30px;
+    color: #2F2325;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+#resultado2{
+    width: 700px;
+    height: 200px;
+    margin-left: -40%;
+    position: relative;
+    background-color: #483636;
+    border: 2px solid #FFF2E7;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #FFF2E7;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/**CSS do Desafio 02**/
+
+/**CSS do Desafio 03**/
+
+/**CSS do Desafio 03**/
+
+/**CSS do Desafio Extra**/
+.form-extra{
+    background-color: #483636;
+    text-align: center;
+    width: 400px;
+    height: 430px;
+    border: 2px solid #FFF2E7;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.form-extra h2{
+    font-size: 35px;
+    text-align: center;
+    color: #FFF2E7;
+    padding-bottom: 20px;
+}
+
+input{
+    color: #2F2325;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p{
+    color: #97D4D9;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.formulario label{
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFF2E7;
+}
+
+#send{
+    margin-top: 15px;
+    width: 210px;
+    height: 50px;
+    background-color: #FFF2E7;
+    color: #483636;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+}
+
+#send:hover {
+    background-color: #483636;
+    color: #FFF2E7;
+}
+
+.formulario input{
+    width: 200px;
+    height: 40px;
+    background-color: #FFF2E7B2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-bottom: 22px;
+}
+
+.conteiner{
+    background-color: #483636;
+    text-align: center;
+    width: 400px;
+    height: 430px;
+    border: 2px solid #FFF2E7;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+.conteiner::-webkit-scrollbar {
+    background-color: #2F2325;
+    width: 10px;
+    display: none;
+}
+
+.conteiner h2{
+    font-size: 35px;
+    text-align: center;
+    color: #FFF2E7;
+    padding-bottom: 20px;
+}
+
+.titulo1{
+    font-size: 25px;
+    text-align: center;
+    color: #FFF2E7;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+span{
+    font-size: 30px;
+    color: #97D4D9;
+    display: block;
+    text-align: left;
+    margin-left: 40px;
+    
+}
+
+#nome, #idades, #skill{
+    display: inline;
+    font-size: 25px;
+    color: #EFC764;
+    word-break: break-word;
+}
+
+.padrao{
+    display: inline;
+    font-size: 25px;
+    color: #EFC764;
+}
+
+.scroll{
+    width: 20px;
+    display: inline
+}
+
+.git{
+    width: 60px;
+    margin-left: 20px;
+}
+
+.menu{
+    background-color: #483636;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 50px;
+
+}
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+/**CSS do Desafio Extra**/

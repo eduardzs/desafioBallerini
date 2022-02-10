@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="assets/js/script.js"></script>
+    <title>Desafio Extra</title>  
+
+</head>
+<body>
+    <div class="menu">
+        <h2 class="titulo1">Cadastro de Dev's 🖖🏿</h2>
+    </div>
+    <div class="img-principais">
+        <a href="https://github.com/eduardzs" target="_blank"><img src="assets/img/github.png" rel="github"></a>
+        <a href="index.html"><img src="assets/img/voltar.png" rel="voltar"></a>
+    </div>
+    <div id="main">
+        <form class="form-extra">
+            <h2>Digite os dados <br> do usuário</h2>
+            <div class="formulario">
+                <label>Nome</label>
+                <input type="text" name="" id="name" required>
+            </div>
+            <div class="formulario">
+                <label>Idade</label>
+                <input type="number" name="" id="idade" min="1" required>
+            </div>
+            <div class="formulario">
+                <label>Skills</label>
+                <input type="text" name="" id="skills" required>
+            </div>
+            <button id="send" type="button" onclick="chamar()" value="send">Cadastrar usuário</button>
+        </form>
+        <div class="conteiner">
+            <h2>Resultado: <img class="scroll" src="assets/img/scroll.png" rel="scroll"></h2>
+            <span>Nome: <p class="padrao">Rafaella Ballerini</p></span>
+            <span>Idade: <p class="padrao">24</p></span>
+            <span>Skills: <p class="padrao">C#, React, Python</p></span><br>
+            <span>Nome: <p id="nome"></p></span>
+            <span>Idade: <p id="idades"></p></span>
+            <span>Skills: <p id="skill"></p></span>
+            
+        </div>
+</body>
+</html>
