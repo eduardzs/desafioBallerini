@@ -7,7 +7,7 @@ O objetivo do desafio era criar um menu, onde o usuário clicaria sobre um dos d
 assim que o usuário clicasse, isso o levaria a outra página, onde teria pequenas interações.
 
 <hr>
-Recomendo a todos a seguirem a Rafaella Ballerini em suas redes socias,<br> e em sua comunidade do Discord, pois ela está sempre 
+Recomendo a todos a seguirem a Rafaella Ballerini em suas redes sociais,<br> e em sua comunidade do Discord, pois ela está sempre 
 a promover desafios<br> que ampliam seus conhecimentos.
 
 <br>Link's<br>
