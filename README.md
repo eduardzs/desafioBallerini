@@ -16,6 +16,8 @@ a promover desafios<br> que ampliam seus conhecimentos.
   <a href="https://discord.com/invite/wagxzStdcR" target="_blank">Comunidade do Discord</a>
   <hr>
   
+  <a href="https://desafio-ballerini-full-1urocb0an-eduardzs.vercel.app/">Link do Projeto</a>
+  
   <img src="ballerini1.png" alt="Imagem do Projeto">
   <img src="ballerini2.png" alt="Imagem do Projeto">
   <img src="ballerini3.png" alt="Imagem do Projeto">
